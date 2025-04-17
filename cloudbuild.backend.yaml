@@ -6,7 +6,7 @@ steps:
 
   # 2. Push ke Container Registry / Artifact Registry
   - name: "gcr.io/cloud-builders/docker"
-    args: ["push", "gcr.io/$PROJECT_ID/notes-be077"]
+    args: ["push", "gcr.io/$PROJECT_ID/notes-be183"]
 
   # 3. Deploy ke Cloud Run
   - name: "gcr.io/cloud-builders/gcloud"
@@ -17,7 +17,7 @@ steps:
         "deploy",
         "notes-be077",
         "--image",
-        "gcr.io/$PROJECT_ID/notes-be077",
+        "gcr.io/$PROJECT_ID/notes-be183",
         "--timeout",
         "1000s",
         "--port",
