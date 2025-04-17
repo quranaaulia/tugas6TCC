@@ -1,0 +1,174 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+.custom-cursive {
+  font-family: 'Dancing Script', cursive;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 760px;
+  margin: 20px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+button {
+  background-color: #69a4e0;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+body {
+  background: linear-gradient(to right, #e0c3fc, #8ec5fc);
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.author, .judul {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+
+/* Styling untuk daftar catatan */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Membuat container utama sejajar */
+.main-container {
+  display: flex;
+  justify-content: space-between; /* Membuat form dan daftar catatan sejajar */
+  align-items: flex-start; 
+  gap: 20px; /* Beri jarak antara form dan daftar catatan */
+  padding: 20px;
+}
+
+/* Form tambah catatan */
+.form-container {
+  width: 65%;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Daftar catatan */
+.notes-container {
+  width: 65%;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling tombol */
+.add-note-btn {
+  background-color: #6a0572;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.add-note-btn:hover {
+  background-color: #57045a;
+}
+
+/* Styling daftar catatan */
+.note-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Styling untuk tiap catatan (card) */
+.note-card {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling judul catatan */
+.note-title {
+  color: #6a0572;
+  margin-bottom: 5px;
+}
+
+/* Group tombol */
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+/* Styling tombol */
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Tombol Edit */
+.edit-btn {
+  background-color: #d27da6;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #38a86b;
+}
+
+/* Tombol Hapus */
+.delete-btn {
+  background-color: #6a065b;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #e63946;
+}
+
+body {
+  margin: 0;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

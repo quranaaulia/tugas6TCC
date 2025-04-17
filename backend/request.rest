@@ -1,0 +1,27 @@
+GET http://localhost:3000/api/notes
+
+### pake id
+GET http://localhost:3000/api/notes/8
+
+### buat baru
+POST http://localhost:3000/api/notes
+Content-Type: application/json
+
+{
+  "nama": "hira",
+  "title": "pusing",
+  "content": "GATAAOOOOOO"
+}
+
+### update
+PUT http://localhost:3000/api/notes/25
+Content-Type: application/json
+
+{
+  "nama": "HIRA",
+  "title": "rahasia",
+  "content": "Sebenarnya aku manusia."
+}
+
+### hapus
+DELETE http://localhost:3000/api/notes/29
