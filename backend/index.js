@@ -9,7 +9,7 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use("/api", noteRoutes);
 
-const PORT = 3000;
+const PORT = 5000;
 
 // Sync database
 db.sync()
