@@ -1,1 +1,1 @@
-export const BASE_URL = "http://localhost:3000/api";
+export const BASE_URL = "https://notes-fe183-dot-f-01-450707.uc.r.appspot.com/";
