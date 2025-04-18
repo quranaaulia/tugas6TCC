@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://notes-be183-651881126563.us-central1.run.app/api/notes";
+const API_URL = "https://notes-be183-651881126563.us-central1.run.app";
 
 export const getNotes = async () => {
   const response = await axios.get(API_URL);
